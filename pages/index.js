@@ -1,13 +1,19 @@
 import React from 'react';
-import { render } from 'react-dom';
+import {
 
-export default class Mine extends React.Component{
+  Icon,
+ 
+} from 'antd';
 
-  render(){
-    return(
-      <div>
-        <h1>Helooo try this</h1>
-      </div>
-    )
-  }
-}
+
+const Index = () => {
+  return(
+    <div>
+      <Icon type="home"/>
+    </div>
+  )
+} 
+
+
+
+export default Index;
